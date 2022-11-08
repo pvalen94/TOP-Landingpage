@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    
 }
 
 header{
@@ -42,14 +41,17 @@ justify-content: space-between;
     font-size: 18px;
     color: #e5e7eb;
     width: 300px;
+    margin-left: 10px;
 }
 
 .signup{
     background-color: #3882f6;
     color: white;
-    width: 6em;
+    width: 8em;
     height: 4em;
     border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
     
 }
 
@@ -60,4 +62,85 @@ justify-content: space-between;
 margin-right: 1em;
 }
 
+.section2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #c0c1c2;
+    padding: 50px;
+    
+}
+.card{
+    display: flex;
+    height: 270px; 
+}
 
+.section3{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-content: center;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 0em;
+    background-image: linear-gradient(rgb(40, 47, 181), rgb(82, 81, 81));
+    padding: 6vh;
+}
+.quote{
+   align-self: center;
+   margin-left: 5px;
+   margin-top: 100px;
+   color: yellow;
+   font-size: 18px;
+
+}
+.speech {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    width: 375px;
+
+}
+.section4{
+    display: flex;
+    background-color: #3882f6;
+    margin: 64px;
+    color: #f9faf8;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: auto;
+}
+
+
+.signup2{
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    width: 8em;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.line2{
+
+}
+
+.line3{
+    color: #d4d6dbc4;
+    font-size: 10.5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    padding: 15px;
+    color: white;
+    font-size: smaller;
+}
