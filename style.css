@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    
+}
+
+header{
+    display: flex;    
+    padding: 24px;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+a {
+    font-size: 22px;
+    padding: 8px;
+    text-decoration: none;
+    color: #e5e7eb;
+  }
+
+.section1 {
+display: flex;
+background-color: #1f2937;
+padding: 48px;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.sec1 {
+    flex: 1;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.para1{
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 300px;
+}
+
+.signup{
+    background-color: #3882f6;
+    color: white;
+    width: 6em;
+    height: 4em;
+    border-radius: 20px;
+    
+}
+
+.leftpannel{
+    flex: 1;
+}
+.rightpannel {
+margin-right: 1em;
+}
+
+
